@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    background-color: rgb(214, 214, 214);
+}
+
+h1 {
+    margin: 0;
+    border: 0;
+}
+
+.sosconf__wrap {
+    width: 100%;
+}
+
+.sosconf__box {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sosconf__box--left {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.sosconf__box--right {
+    width: 70%;
+    position: relative;
+    margin-top: -800px;
+    left: 30%;
+}
+
+.sosconf__logo {
+    text-align: center;
+    height: 200px;
+}
+
+.sosconf__logo img{
+    position: relative;
+    width: 80%;
+    top: 30px;
+}
+
+.sosconf__box--right {
+    background-color: white;
+    height: 100%;
+}
+
+.sosconf__left_button a{
+    color: rgb(102, 102, 102);
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.sosconf__left_button a:hover {
+    color: white;
+    transition: all .5s;
+}
+
+.sosconf__left_button {
+    height: 60px;
+    text-align: center;
+}
+
+.sosconf__box_left_buttons {
+    margin-top: 50px;
+}
+
+.sosconf__pic_button {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.sosconf__pic_button img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.sosconf__box_left_pic_buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sosconf__pic_button:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+    background-color: rgb(238, 200, 87);
+}
+
+.sosconf__right_banner {
+    padding-top: 130px;
+}
+
+.sosconf__right_banner p {
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sosconf__right_slide {
+    position: relative;
+}
+
+.sosconf__slide_arrow--left {
+    color: orange;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    float: left;
+    left: 8%;
+}
+
+.sosconf__slide_arrow--right {
+    color: orange;
+    position: relative;
+    float: left;
+    top: 30px;
+    font-size: 20px;
+}
+
+.sosconf__slide_arrow--left:hover {
+    transform: translateX(-2px);
+    border-right-color: orange;
+    transition: all .1s;
+}
+
+.sosconf__slide_arrow--right:hover {
+    transform: translateX(2px);
+    border-right-color: orange;
+    transition: all .1s;
+}
+
+.sosconf__right_slide {
+    padding-top: 120px;
+}
+
+.sosconf__slide_main {
+    text-align: center;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(102, 102, 102);
+}
+
+.sosconf__slide_arrow--right::after {
+    content: "";
+    display: table;
+    overflow: hidden;
+    clear: both;
+}
+
+.sosconf__right_buttons {
+    margin-top: 160px;
+    text-align: center;
+}
+
+.sosconf__right_buttons button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(238, 200, 87);
+}
+
+.sosconf__right_buttons button:hover {
+    transform: scale(1.1);
+    transition: .2s all;
+}
